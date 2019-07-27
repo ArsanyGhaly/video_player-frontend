@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Egle ** Eye</title>
+
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- My Styles Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+
+    </head>
+<body>
+     
+     <!-- Start Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+  
+  <a class="navbar-brand " href="#"> 
+         Egle <span  id="hashtag">  <img src="./images/logo.png"  class="img-circle logo">  </span><span id="second"> Eye </span>
+  </a>
+  
+  <button class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#mynav" 
+            aria-controls="mynav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-end " id="mynav">
+    <ul class="navbar-nav">
+     
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Name</a>
+      </li>
+       
+      <li class="nav-item">
+        <a class="nav-link .float-right" href="#">Log Out</a>
+      </li>
+    
+    </ul>
+ </div>
+</nav>
+    <!-- End Navbar --> 
+
+
+<!-- Start Media Player --> 
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-4 sidenav">
+          <div class ="claender">
+              <div id="jquery-script-menu">
+                  <div class="jquery-script-center">
+                     <div class="jquery-script-clear"></div>
+                  </div>
+              </div>
+
+                <div class="example1"></div>
+
+          </div>
+   
+          <div>
+              <table class="table table-hover table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Date</th>
+              <th scope="col">Time</th>
+              <th scope="col">Length</th>
+              <th scope="col">File Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th style="height:0.66%">1</th>
+              <td>12/12/2012</td>
+              <td>12:12am</td>
+              <td>12:12M</td>
+              <td>the first file/mp4</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+               <td>12/12/2012</td>
+              <td>12:12am</td>
+              <td>12:12M</td>
+              <td>the first file/mp4</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>12/12/2012</td>
+              <td>12:12am</td>
+              <td>12:12M</td>
+              <td>the first file/mp4</td>
+            </tr>
+
+            <tr>
+              <th scope="row">4</th>
+              <td>12/12/2012</td>
+              <td>12:12am</td>
+              <td>12:12M</td>
+              <td>the first file/mp4</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+               <td>12/12/2012</td>
+              <td>12:12am</td>
+              <td>12:12M</td>
+              <td>the first file/mp4</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>12/12/2012</td>
+              <td>12:12am</td>
+              <td>12:12M</td>
+              <td>the first file/mp4</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+    </div>
+
+    <div class="col-sm-8">
+        <video id="myvid"  class="video-fluid z-depth-1" >
+          <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
+        </video>
+
+      <div class="controls">
+          <div class="topControl">
+                <div class="progress">
+                  <span class="bufferBar"></span>
+                  <span class="timeBar"></span>
+                </div>
+                
+                <div class="time">
+                  <span class="currentt"></span> 
+                  <span class="duration"></span> 
+                </div>
+                <div class="currentplay">
+                  <p>The First video</p>
+                </div>
+
+          </div>
+
+<div class="controllers">
+    <button class="btnPlay" title="Play/Pause video"></button>
+    <button class="prevvid disabled" title="Previous video"><i class="fa fa-step-forward fa-rotate-180"></i></button>
+    <button class="nextvid" title="Next video"><i class="fa fa-step-forward"></i></button>
+    <button class="sound sound2 btnn" title="Mute/Unmute sound"></button>
+    <div class="volume" title="Set volume">
+      <span class="volumeBar"></span>
+  </div>
+
+    <button class="btnFS " style="float:right" title="full screen"></button>
+    <button class="btnspeed " style="float:right" title="Video speed"><i class="fa fa-gear"></i></button>
+    <ul class="speedcnt">
+      <li class="spdx50">1.5</li>
+      <li class="spdx25">1.25</li>
+      <li class="spdx1 selected">Normal</li>
+      <li class="spdx050">0.5</li>
+    </ul>
+  
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- End Media Player -->
+<div class="container-fluid copyright">   
+        <h4 class="text-center">CopyRight 2019 Designed BY:Team 10 || Fall 2019</h4>
+    
+</div>
+
+<div class="loading">
+    <div class="spinner text-center">
+      <div class="rect1"></div>
+      <div class="rect2"></div>
+      <div class="rect3"></div>
+      <div class="rect4"></div>
+      <div class="rect5"></div>
+</div>
+    </div>
+ 
+</div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.supercal.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/plugins.js"></script>
+</body>
